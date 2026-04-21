@@ -1,0 +1,70 @@
+{
+  "query": "SELECT name, active, fetchErrorCount FROM rss_feeds ORDER BY active DESC, name;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute SELECT name, active, fetchErrorCount FROM rss_feeds ORDER BY active DESC, name;",
+  "rows": [
+    {
+      "name": "Agência Brasil - Economia",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "Agro Estadão",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "Campo & Negócios",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "Farm Progress",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "Google News - Agronegócio Brasil",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "Google News - Clima Agrícola",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "Google News - Crédito Rural",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "Google News - Soja e Milho",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "Morning Ag Clips",
+      "active": "1",
+      "fetchErrorCount": "1"
+    },
+    {
+      "name": "NOAA Weather RSS",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "Safras & Mercado",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "name": "The Agribiz",
+      "active": "1",
+      "fetchErrorCount": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "name\tactive\tfetchErrorCount\nAgência Brasil - Economia\t1\t0\nAgro Estadão\t1\t0\nCampo & Negócios\t1\t0\nFarm Progress\t1\t0\nGoogle News - Agronegócio Brasil\t1\t0\nGoogle News - Clima Agrícola\t1\t0\nGoogle News - Crédito Rural\t1\t0\nGoogle News - Soja e Milho\t1\t0\nMorning Ag Clips\t1\t1\nNOAA Weather RSS\t1\t0\nSafras & Mercado\t1\t0\nThe Agribiz\t1\t0\n",
+  "stderr": "",
+  "execution_time_ms": 62
+}

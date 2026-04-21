@@ -1,0 +1,138 @@
+{
+  "query": "SELECT id, name, url, category, active, fetchErrorCount FROM rss_feeds ORDER BY id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute SELECT id, name, url, category, active, fetchErrorCount FROM rss_feeds ORDER BY id;",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/rss",
+      "category": "mercado",
+      "active": "1",
+      "fetchErrorCount": "5"
+    },
+    {
+      "id": "2",
+      "name": "Canal Rural",
+      "url": "https://www.canalrural.com.br/rss",
+      "category": "politica_agricola",
+      "active": "1",
+      "fetchErrorCount": "5"
+    },
+    {
+      "id": "3",
+      "name": "Agrolink",
+      "url": "https://www.agrolink.com.br/rss/noticias.xml",
+      "category": "tecnologia",
+      "active": "1",
+      "fetchErrorCount": "5"
+    },
+    {
+      "id": "4",
+      "name": "Agro Estadão",
+      "url": "https://agro.estadao.com.br/rss/agro.xml",
+      "category": "mercado",
+      "active": "1",
+      "fetchErrorCount": "5"
+    },
+    {
+      "id": "5",
+      "name": "CEPEA / ESALQ",
+      "url": "https://www.cepea.org.br/br/rss.aspx",
+      "category": "commodities",
+      "active": "1",
+      "fetchErrorCount": "5"
+    },
+    {
+      "id": "6",
+      "name": "USDA Blog",
+      "url": "https://www.usda.gov/media/blog/rss.xml",
+      "category": "internacional",
+      "active": "1",
+      "fetchErrorCount": "3"
+    },
+    {
+      "id": "7",
+      "name": "Safras & Mercado",
+      "url": "https://www.safras.com.br/feed/",
+      "category": "commodities",
+      "active": "1",
+      "fetchErrorCount": "3"
+    },
+    {
+      "id": "8",
+      "name": "The Agribiz",
+      "url": "https://www.theagribiz.com/feed",
+      "category": "mercado",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "9",
+      "name": "IMEA",
+      "url": "https://imea.com.br/imea-site/feed",
+      "category": "commodities",
+      "active": "1",
+      "fetchErrorCount": "3"
+    },
+    {
+      "id": "10",
+      "name": "CNA Brasil",
+      "url": "https://www.cnabrasil.org.br/rss",
+      "category": "politica_agricola",
+      "active": "1",
+      "fetchErrorCount": "3"
+    },
+    {
+      "id": "11",
+      "name": "NOAA Climate",
+      "url": "https://www.cpc.ncep.noaa.gov/products/CPC.rss.xml",
+      "category": "clima",
+      "active": "1",
+      "fetchErrorCount": "3"
+    },
+    {
+      "id": "12",
+      "name": "Morning Ag Clips",
+      "url": "https://www.morningagclips.com/feed/",
+      "category": "internacional",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "13",
+      "name": "The Agribiz",
+      "url": "https://www.theagribiz.com/feed/",
+      "category": "mercado",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "14",
+      "name": "Campo & Negócios",
+      "url": "https://campoenegocios.com/feed",
+      "category": "mercado",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "15",
+      "name": "Agência Brasil - Economia",
+      "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
+      "category": "mercado",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "16",
+      "name": "Farm Progress",
+      "url": "https://www.farmprogress.com/rss.xml",
+      "category": "internacional",
+      "active": "1",
+      "fetchErrorCount": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\turl\tcategory\tactive\tfetchErrorCount\n1\tNotícias Agrícolas\thttps://www.noticiasagricolas.com.br/rss\tmercado\t1\t5\n2\tCanal Rural\thttps://www.canalrural.com.br/rss\tpolitica_agricola\t1\t5\n3\tAgrolink\thttps://www.agrolink.com.br/rss/noticias.xml\ttecnologia\t1\t5\n4\tAgro Estadão\thttps://agro.estadao.com.br/rss/agro.xml\tmercado\t1\t5\n5\tCEPEA / ESALQ\thttps://www.cepea.org.br/br/rss.aspx\tcommodities\t1\t5\n6\tUSDA Blog\thttps://www.usda.gov/media/blog/rss.xml\tinternacional\t1\t3\n7\tSafras & Mercado\thttps://www.safras.com.br/feed/\tcommodities\t1\t3\n8\tThe Agribiz\thttps://www.theagribiz.com/feed\tmercado\t1\t0\n9\tIMEA\thttps://imea.com.br/imea-site/feed\tcommodities\t1\t3\n10\tCNA Brasil\thttps://www.cnabrasil.org.br/rss\tpolitica_agricola\t1\t3\n11\tNOAA Climate\thttps://www.cpc.ncep.noaa.gov/products/CPC.rss.xml\tclima\t1\t3\n12\tMorning Ag Clips\thttps://www.morningagclips.com/feed/\tinternacional\t1\t0\n13\tThe Agribiz\thttps://www.theagribiz.com/feed/\tmercado\t1\t0\n14\tCampo & Negócios\thttps://campoenegocios.com/feed\tmercado\t1\t0\n15\tAgência Brasil - Economia\thttps://agenciabrasil.ebc.com.br/rss/economia/feed.xml\tmercado\t1\t0\n16\tFarm Progress\thttps://www.farmprogress.com/rss.xml\tinternacional\t1\t0\n",
+  "stderr": "",
+  "execution_time_ms": 53
+}

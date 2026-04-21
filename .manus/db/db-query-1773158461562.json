@@ -1,0 +1,9 @@
+{
+  "query": "\n-- Verificar duplicatas de URL\nSELECT url, COUNT(*) as cnt, GROUP_CONCAT(id) as ids FROM rss_feeds GROUP BY url HAVING cnt > 1;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute \n-- Verificar duplicatas de URL\nSELECT url, COUNT(*) as cnt, GROUP_CONCAT(id) as ids FROM rss_feeds GROUP BY url HAVING cnt > 1;\n",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 60
+}

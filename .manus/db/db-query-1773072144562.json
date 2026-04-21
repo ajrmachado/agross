@@ -1,0 +1,9 @@
+{
+  "query": "\nINSERT IGNORE INTO rss_feeds (name, url, category, active, fetchErrorCount, createdAt, updatedAt)\nVALUES\n  ('Morning Ag Clips', 'https://www.morningagclips.com/feed/', 'internacional', 1, 0, NOW(), NOW()),\n  ('The Agribiz', 'https://www.theagribiz.com/feed/', 'mercado', 1, 0, NOW(), NOW()),\n  ('Campo & Negócios', 'https://campoenegocios.com/feed', 'mercado', 1, 0, NOW(), NOW()),\n  ('Agência Brasil - Economia', 'https://agenciabrasil.ebc.com.br/rss/economia/feed.xml', 'mercado', 1, 0, NOW(), NOW()),\n  ('Farm Progress', 'https://www.farmprogress.com/rss.xml', 'internacional', 1, 0, NOW(), NOW());\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute \nINSERT IGNORE INTO rss_feeds (name, url, category, active, fetchErrorCount, createdAt, updatedAt)\nVALUES\n  ('Morning Ag Clips', 'https://www.morningagclips.com/feed/', 'internacional', 1, 0, NOW(), NOW()),\n  ('The Agribiz', 'https://www.theagribiz.com/feed/', 'mercado', 1, 0, NOW(), NOW()),\n  ('Campo & Negócios', 'https://campoenegocios.com/feed', 'mercado', 1, 0, NOW(), NOW()),\n  ('Agência Brasil - Economia', 'https://agenciabrasil.ebc.com.br/rss/economia/feed.xml', 'mercado', 1, 0, NOW(), NOW()),\n  ('Farm Progress', 'https://www.farmprogress.com/rss.xml', 'internacional', 1, 0, NOW(), NOW());\n",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 91
+}

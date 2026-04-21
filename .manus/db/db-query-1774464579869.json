@@ -1,0 +1,124 @@
+{
+  "query": "\n-- Verificar feeds existentes\nSELECT name, url, category, active FROM rss_feeds ORDER BY name;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute \n-- Verificar feeds existentes\nSELECT name, url, category, active FROM rss_feeds ORDER BY name;\n",
+  "rows": [
+    {
+      "name": "Agência Brasil - Economia",
+      "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
+      "category": "mercado",
+      "active": "1"
+    },
+    {
+      "name": "Agro Estadão",
+      "url": "https://agro.estadao.com.br/feed",
+      "category": "mercado",
+      "active": "1"
+    },
+    {
+      "name": "Agrolink",
+      "url": "https://www.agrolink.com.br/rss/noticias.xml",
+      "category": "tecnologia",
+      "active": "1"
+    },
+    {
+      "name": "Campo & Negócios",
+      "url": "https://campoenegocios.com/feed",
+      "category": "mercado",
+      "active": "1"
+    },
+    {
+      "name": "Canal Rural",
+      "url": "https://www.canalrural.com.br/rss",
+      "category": "politica_agricola",
+      "active": "1"
+    },
+    {
+      "name": "CEPEA / ESALQ",
+      "url": "https://www.cepea.org.br/br/rss.aspx",
+      "category": "commodities",
+      "active": "1"
+    },
+    {
+      "name": "CNA Brasil",
+      "url": "https://www.cnabrasil.org.br/rss",
+      "category": "politica_agricola",
+      "active": "1"
+    },
+    {
+      "name": "Farm Progress",
+      "url": "https://www.farmprogress.com/rss.xml",
+      "category": "internacional",
+      "active": "1"
+    },
+    {
+      "name": "Google News - Agronegócio Brasil",
+      "url": "https://news.google.com/rss/search?q=agronegocio+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      "category": "mercado",
+      "active": "1"
+    },
+    {
+      "name": "Google News - Clima Agrícola",
+      "url": "https://news.google.com/rss/search?q=clima+safra+agricultura+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      "category": "clima",
+      "active": "1"
+    },
+    {
+      "name": "Google News - Crédito Rural",
+      "url": "https://news.google.com/rss/search?q=credito+rural+financiamento+agro+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      "category": "politica_agricola",
+      "active": "1"
+    },
+    {
+      "name": "Google News - Soja e Milho",
+      "url": "https://news.google.com/rss/search?q=soja+milho+commodities+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      "category": "commodities",
+      "active": "1"
+    },
+    {
+      "name": "IMEA",
+      "url": "https://imea.com.br/imea-site/feed",
+      "category": "commodities",
+      "active": "1"
+    },
+    {
+      "name": "Morning Ag Clips",
+      "url": "https://www.morningagclips.com/feed/",
+      "category": "internacional",
+      "active": "1"
+    },
+    {
+      "name": "NOAA Weather RSS",
+      "url": "https://www.weather.gov/rss_page.php?site_name=nws",
+      "category": "clima",
+      "active": "1"
+    },
+    {
+      "name": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/rss",
+      "category": "mercado",
+      "active": "1"
+    },
+    {
+      "name": "Safras & Mercado",
+      "url": "https://www.safras.com.br/feed/",
+      "category": "commodities",
+      "active": "1"
+    },
+    {
+      "name": "The Agribiz",
+      "url": "https://www.theagribiz.com/feed/",
+      "category": "mercado",
+      "active": "1"
+    },
+    {
+      "name": "USDA Blog",
+      "url": "https://www.usda.gov/media/blog/rss.xml",
+      "category": "internacional",
+      "active": "1"
+    }
+  ],
+  "messages": [],
+  "stdout": "name\turl\tcategory\tactive\nAgência Brasil - Economia\thttps://agenciabrasil.ebc.com.br/rss/economia/feed.xml\tmercado\t1\nAgro Estadão\thttps://agro.estadao.com.br/feed\tmercado\t1\nAgrolink\thttps://www.agrolink.com.br/rss/noticias.xml\ttecnologia\t1\nCampo & Negócios\thttps://campoenegocios.com/feed\tmercado\t1\nCanal Rural\thttps://www.canalrural.com.br/rss\tpolitica_agricola\t1\nCEPEA / ESALQ\thttps://www.cepea.org.br/br/rss.aspx\tcommodities\t1\nCNA Brasil\thttps://www.cnabrasil.org.br/rss\tpolitica_agricola\t1\nFarm Progress\thttps://www.farmprogress.com/rss.xml\tinternacional\t1\nGoogle News - Agronegócio Brasil\thttps://news.google.com/rss/search?q=agronegocio+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419\tmercado\t1\nGoogle News - Clima Agrícola\thttps://news.google.com/rss/search?q=clima+safra+agricultura+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419\tclima\t1\nGoogle News - Crédito Rural\thttps://news.google.com/rss/search?q=credito+rural+financiamento+agro+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419\tpolitica_agricola\t1\nGoogle News - Soja e Milho\thttps://news.google.com/rss/search?q=soja+milho+commodities+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419\tcommodities\t1\nIMEA\thttps://imea.com.br/imea-site/feed\tcommodities\t1\nMorning Ag Clips\thttps://www.morningagclips.com/feed/\tinternacional\t1\nNOAA Weather RSS\thttps://www.weather.gov/rss_page.php?site_name=nws\tclima\t1\nNotícias Agrícolas\thttps://www.noticiasagricolas.com.br/rss\tmercado\t1\nSafras & Mercado\thttps://www.safras.com.br/feed/\tcommodities\t1\nThe Agribiz\thttps://www.theagribiz.com/feed/\tmercado\t1\nUSDA Blog\thttps://www.usda.gov/media/blog/rss.xml\tinternacional\t1\n",
+  "stderr": "",
+  "execution_time_ms": 100
+}

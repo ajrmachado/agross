@@ -1,0 +1,1 @@
+ALTER TABLE `whatsapp_auto_sends` ADD `sentText` text;

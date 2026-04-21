@@ -1,0 +1,9 @@
+{
+  "query": "\nCREATE TABLE `commodity_prices` (\n  `id` int AUTO_INCREMENT NOT NULL,\n  `symbol` varchar(16) NOT NULL,\n  `name` varchar(64) NOT NULL,\n  `price` decimal(12,4) NOT NULL,\n  `prevClose` decimal(12,4),\n  `change` decimal(10,4),\n  `changePct` decimal(8,4),\n  `currency` varchar(8) NOT NULL DEFAULT 'USX',\n  `exchange` varchar(32),\n  `fetchedAt` timestamp NOT NULL DEFAULT (now()),\n  CONSTRAINT `commodity_prices_id` PRIMARY KEY(`id`)\n);\n\nCREATE INDEX `idx_commodity_symbol_fetchedAt` ON `commodity_prices` (`symbol`,`fetchedAt`);\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute \nCREATE TABLE `commodity_prices` (\n  `id` int AUTO_INCREMENT NOT NULL,\n  `symbol` varchar(16) NOT NULL,\n  `name` varchar(64) NOT NULL,\n  `price` decimal(12,4) NOT NULL,\n  `prevClose` decimal(12,4),\n  `change` decimal(10,4),\n  `changePct` decimal(8,4),\n  `currency` varchar(8) NOT NULL DEFAULT 'USX',\n  `exchange` varchar(32),\n  `fetchedAt` timestamp NOT NULL DEFAULT (now()),\n  CONSTRAINT `commodity_prices_id` PRIMARY KEY(`id`)\n);\n\nCREATE INDEX `idx_commodity_symbol_fetchedAt` ON `commodity_prices` (`symbol`,`fetchedAt`);\n",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 437
+}

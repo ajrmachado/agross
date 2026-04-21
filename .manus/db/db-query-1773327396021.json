@@ -1,0 +1,9 @@
+{
+  "query": "\nINSERT INTO commodity_prices (symbol, name, price, prevClose, `change`, changePct, currency, exchange, fetchedAt) VALUES\n('CT=F', 'Algodão',        65.1400, 65.3000, -0.1600, -0.2450, 'USX', 'NYM', NOW()),\n('LE=F', 'Boi Gordo',      224.6750, 225.3750, -0.7000, -0.3100, 'USX', 'CME', NOW()),\n('GF=F', 'Boi Alimentado', 325.3500, 327.7250, -2.3750, -0.7240, 'USX', 'CME', NOW());\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute \nINSERT INTO commodity_prices (symbol, name, price, prevClose, `change`, changePct, currency, exchange, fetchedAt) VALUES\n('CT=F', 'Algodão',        65.1400, 65.3000, -0.1600, -0.2450, 'USX', 'NYM', NOW()),\n('LE=F', 'Boi Gordo',      224.6750, 225.3750, -0.7000, -0.3100, 'USX', 'CME', NOW()),\n('GF=F', 'Boi Alimentado', 325.3500, 327.7250, -2.3750, -0.7240, 'USX', 'CME', NOW());\n",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 878
+}

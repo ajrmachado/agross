@@ -1,0 +1,9 @@
+{
+  "query": "\n-- Adicionar Yahoo Finance Commodities RSS (notícias de soja, milho, trigo, café, açúcar)\nINSERT INTO rss_feeds (name, url, category, active) VALUES\n  ('Yahoo Finance - Commodities Agro', 'https://feeds.finance.yahoo.com/rss/2.0/headline?s=ZS=F,ZC=F,ZW=F,CT=F,LE=F,KC=F,SB=F&region=US&lang=en-US', 'commodities', 1),\n  ('Google News - Café e Açúcar', 'https://news.google.com/rss/search?q=caf%C3%A9+a%C3%A7%C3%BAcar+commodities+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419', 'commodities', 1),\n  ('Google News - Boi Gordo e Pecuária', 'https://news.google.com/rss/search?q=boi+gordo+pecu%C3%A1ria+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419', 'mercado', 1),\n  ('Google News - USDA e Grãos', 'https://news.google.com/rss/search?q=USDA+relat%C3%B3rio+gr%C3%A3os+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419', 'internacional', 1);\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute \n-- Adicionar Yahoo Finance Commodities RSS (notícias de soja, milho, trigo, café, açúcar)\nINSERT INTO rss_feeds (name, url, category, active) VALUES\n  ('Yahoo Finance - Commodities Agro', 'https://feeds.finance.yahoo.com/rss/2.0/headline?s=ZS=F,ZC=F,ZW=F,CT=F,LE=F,KC=F,SB=F&region=US&lang=en-US', 'commodities', 1),\n  ('Google News - Café e Açúcar', 'https://news.google.com/rss/search?q=caf%C3%A9+a%C3%A7%C3%BAcar+commodities+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419', 'commodities', 1),\n  ('Google News - Boi Gordo e Pecuária', 'https://news.google.com/rss/search?q=boi+gordo+pecu%C3%A1ria+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419', 'mercado', 1),\n  ('Google News - USDA e Grãos', 'https://news.google.com/rss/search?q=USDA+relat%C3%B3rio+gr%C3%A3os+brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419', 'internacional', 1);\n",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 61
+}

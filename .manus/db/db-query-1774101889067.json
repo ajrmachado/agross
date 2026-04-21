@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE `periodic_summaries` (\n  `id` int AUTO_INCREMENT NOT NULL,\n  `type` enum('weekly','monthly') NOT NULL,\n  `periodLabel` varchar(64) NOT NULL,\n  `periodStart` date NOT NULL,\n  `periodEnd` date NOT NULL,\n  `content` text NOT NULL,\n  `highlights` text,\n  `articleCount` int NOT NULL DEFAULT 0,\n  `generatedAt` timestamp NOT NULL DEFAULT (now()),\n  `updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,\n  CONSTRAINT `periodic_summaries_id` PRIMARY KEY(`id`)\n);\nCREATE INDEX `idx_periodic_type_label` ON `periodic_summaries` (`type`,`periodLabel`);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute CREATE TABLE `periodic_summaries` (\n  `id` int AUTO_INCREMENT NOT NULL,\n  `type` enum('weekly','monthly') NOT NULL,\n  `periodLabel` varchar(64) NOT NULL,\n  `periodStart` date NOT NULL,\n  `periodEnd` date NOT NULL,\n  `content` text NOT NULL,\n  `highlights` text,\n  `articleCount` int NOT NULL DEFAULT 0,\n  `generatedAt` timestamp NOT NULL DEFAULT (now()),\n  `updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,\n  CONSTRAINT `periodic_summaries_id` PRIMARY KEY(`id`)\n);\nCREATE INDEX `idx_periodic_type_label` ON `periodic_summaries` (`type`,`periodLabel`);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1039
+}

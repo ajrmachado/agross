@@ -1,0 +1,9 @@
+{
+  "query": "\nALTER TABLE `daily_summaries` ADD `linkedinPost` text;\nALTER TABLE `daily_summaries` ADD `imageUrl` varchar(2048);\nALTER TABLE `daily_summaries` ADD `imagePrompt` text;\nALTER TABLE `daily_summaries` ADD `approvalStatus` enum('draft','pending_approval','approved','rejected') DEFAULT 'draft' NOT NULL;\nALTER TABLE `daily_summaries` ADD `approvedAt` timestamp;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute \nALTER TABLE `daily_summaries` ADD `linkedinPost` text;\nALTER TABLE `daily_summaries` ADD `imageUrl` varchar(2048);\nALTER TABLE `daily_summaries` ADD `imagePrompt` text;\nALTER TABLE `daily_summaries` ADD `approvalStatus` enum('draft','pending_approval','approved','rejected') DEFAULT 'draft' NOT NULL;\nALTER TABLE `daily_summaries` ADD `approvedAt` timestamp;\n",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1449
+}

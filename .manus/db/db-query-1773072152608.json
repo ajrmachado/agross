@@ -1,0 +1,22 @@
+{
+  "query": "\nSELECT COUNT(*) as total_articles FROM articles;\nSELECT id, summaryDate, articleCount, LEFT(content, 100) as preview FROM daily_summaries ORDER BY id DESC LIMIT 3;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute \nSELECT COUNT(*) as total_articles FROM articles;\nSELECT id, summaryDate, articleCount, LEFT(content, 100) as preview FROM daily_summaries ORDER BY id DESC LIMIT 3;\n",
+  "rows": [
+    {
+      "total_articles": "20"
+    },
+    {
+      "total_articles": "id\tsummaryDate\tarticleCount\tpreview"
+    },
+    {
+      "total_articles": "1\t2026-03-08\t2\t## 📊 Resumo Executivo"
+    },
+    {
+      "total_articles": "O cenário do agronegócio desta segunda-feira, 9 de março de 2026, destaca mov"
+    }
+  ],
+  "messages": [],
+  "stdout": "total_articles\n20\nid\tsummaryDate\tarticleCount\tpreview\n1\t2026-03-08\t2\t## 📊 Resumo Executivo\n\nO cenário do agronegócio desta segunda-feira, 9 de março de 2026, destaca mov\n",
+  "stderr": "",
+  "execution_time_ms": 60
+}

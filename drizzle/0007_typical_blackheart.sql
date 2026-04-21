@@ -1,0 +1,1 @@
+ALTER TABLE `daily_summaries` ADD `whatsappText` text;

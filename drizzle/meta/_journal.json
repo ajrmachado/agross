@@ -1,0 +1,132 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1773071157281,
+      "tag": "0000_eager_dreadnoughts",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1773071288794,
+      "tag": "0001_flawless_hobgoblin",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1773168141712,
+      "tag": "0002_peaceful_living_mummy",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1773631054289,
+      "tag": "0003_rapid_stingray",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1774101879435,
+      "tag": "0004_late_molly_hayes",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1774921801854,
+      "tag": "0005_productive_tenebrous",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1775736540860,
+      "tag": "0006_steep_skin",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1775766514929,
+      "tag": "0007_typical_blackheart",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1776038108542,
+      "tag": "0008_dry_annihilus",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1776043078317,
+      "tag": "0009_quiet_guardsmen",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1776085252107,
+      "tag": "0010_flippant_wraith",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1776168438055,
+      "tag": "0011_slimy_hammerhead",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "5",
+      "when": 1776180218450,
+      "tag": "0012_shallow_hulk",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "5",
+      "when": 1776188524177,
+      "tag": "0013_flimsy_the_liberteens",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "5",
+      "when": 1776199779014,
+      "tag": "0014_unique_spyke",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "5",
+      "when": 1776221130322,
+      "tag": "0015_past_kabuki",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "5",
+      "when": 1776258581200,
+      "tag": "0016_organic_whiplash",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "6",
+      "when": 1745000000000,
+      "tag": "0017_agro_publisher_plan",
+      "breakpoints": true
+    }
+  ]
+}

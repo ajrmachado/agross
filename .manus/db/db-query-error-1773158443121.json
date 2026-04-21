@@ -1,0 +1,8 @@
+{
+  "query": "\n-- Corrigir URL do Agro Estadão\nUPDATE rss_feeds SET url = 'https://agro.estadao.com.br/feed', fetchErrorCount = 0 WHERE name = 'Agro Estadão';\n\n-- Reset Safras & Mercado\nUPDATE rss_feeds SET fetchErrorCount = 0 WHERE name = 'Safras & Mercado';\n\n-- Desativar feeds bloqueados por IP\nUPDATE rss_feeds SET active = 0, fetchErrorCount = 99 \nWHERE name IN ('Notícias Agrícolas', 'Canal Rural', 'CEPEA / ESALQ', 'Agrolink', 'CNA Brasil', 'NOAA Climate', 'USDA Blog', 'IMEA', 'Morning Ag Clips');\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute \n-- Corrigir URL do Agro Estadão\nUPDATE rss_feeds SET url = 'https://agro.estadao.com.br/feed', fetchErrorCount = 0 WHERE name = 'Agro Estadão';\n\n-- Reset Safras & Mercado\nUPDATE rss_feeds SET fetchErrorCount = 0 WHERE name = 'Safras & Mercado';\n\n-- Desativar feeds bloqueados por IP\nUPDATE rss_feeds SET active = 0, fetchErrorCount = 99 \nWHERE name IN ('Notícias Agrícolas', 'Canal Rural', 'CEPEA / ESALQ', 'Agrolink', 'CNA Brasil', 'NOAA Climate', 'USDA Blog', 'IMEA', 'Morning Ag Clips');\n",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1062 (23000) at line 3: Duplicate entry '?' for key 'rss_feeds.rss_feeds_url_unique'"
+  ]
+}

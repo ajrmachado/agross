@@ -1,0 +1,1 @@
+ALTER TABLE `periodic_summaries` MODIFY COLUMN `type` enum('weekly','monthly','custom') NOT NULL;

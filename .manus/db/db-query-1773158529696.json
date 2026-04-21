@@ -1,0 +1,88 @@
+{
+  "query": "SELECT id, name, active, fetchErrorCount FROM rss_feeds WHERE active = 1 ORDER BY id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute SELECT id, name, active, fetchErrorCount FROM rss_feeds WHERE active = 1 ORDER BY id;",
+  "rows": [
+    {
+      "id": "7",
+      "name": "Safras & Mercado",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "8",
+      "name": "The Agribiz",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "12",
+      "name": "Morning Ag Clips",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "13",
+      "name": "The Agribiz",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "14",
+      "name": "Campo & Negócios",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "15",
+      "name": "Agência Brasil - Economia",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "16",
+      "name": "Farm Progress",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "30001",
+      "name": "Agro Estadao noticia",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "60001",
+      "name": "Google News - Agronegócio Brasil",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "60002",
+      "name": "Google News - Soja e Milho",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "60003",
+      "name": "Google News - Clima Agrícola",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "60004",
+      "name": "Google News - Crédito Rural",
+      "active": "1",
+      "fetchErrorCount": "0"
+    },
+    {
+      "id": "60005",
+      "name": "NOAA Weather RSS",
+      "active": "1",
+      "fetchErrorCount": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tactive\tfetchErrorCount\n7\tSafras & Mercado\t1\t0\n8\tThe Agribiz\t1\t0\n12\tMorning Ag Clips\t1\t0\n13\tThe Agribiz\t1\t0\n14\tCampo & Negócios\t1\t0\n15\tAgência Brasil - Economia\t1\t0\n16\tFarm Progress\t1\t0\n30001\tAgro Estadao noticia\t1\t0\n60001\tGoogle News - Agronegócio Brasil\t1\t0\n60002\tGoogle News - Soja e Milho\t1\t0\n60003\tGoogle News - Clima Agrícola\t1\t0\n60004\tGoogle News - Crédito Rural\t1\t0\n60005\tNOAA Weather RSS\t1\t0\n",
+  "stderr": "",
+  "execution_time_ms": 58
+}

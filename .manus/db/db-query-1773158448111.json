@@ -1,0 +1,24 @@
+{
+  "query": "SELECT id, name, url, active, fetchErrorCount FROM rss_feeds WHERE name LIKE '%Estadão%' OR name LIKE '%Estadao%';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4NB7wDmWZnevaBM.bca307a445f7 --database DnUdFrKHHkwTKFvjBnpLjH --execute SELECT id, name, url, active, fetchErrorCount FROM rss_feeds WHERE name LIKE '%Estadão%' OR name LIKE '%Estadao%';",
+  "rows": [
+    {
+      "id": "4",
+      "name": "Agro Estadão",
+      "url": "https://agro.estadao.com.br/rss/agro.xml",
+      "active": "1",
+      "fetchErrorCount": "24"
+    },
+    {
+      "id": "30001",
+      "name": "Agro Estadao noticia",
+      "url": "https://agro.estadao.com.br/feed",
+      "active": "1",
+      "fetchErrorCount": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\turl\tactive\tfetchErrorCount\n4\tAgro Estadão\thttps://agro.estadao.com.br/rss/agro.xml\t1\t24\n30001\tAgro Estadao noticia\thttps://agro.estadao.com.br/feed\t1\t0\n",
+  "stderr": "",
+  "execution_time_ms": 58
+}

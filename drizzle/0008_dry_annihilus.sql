@@ -1,0 +1,1 @@
+ALTER TABLE `users` MODIFY COLUMN `subscriptionPlan` enum('morning_call','corporativo');
